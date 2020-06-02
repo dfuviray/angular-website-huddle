@@ -1,0 +1,35 @@
+.top-bar {
+  background-color: transparent;
+
+
+}
+
+
+
+
+
+@media screen and (max-width: 39.9375em) {
+  .top-bar, .top-bar .top-bar-left, .top-bar .top-bar-right {
+  flex-wrap: nowrap;
+  flex: 1;
+}
+
+.top-bar-left {
+  text-align: left;
+}
+
+.top-bar-right{
+  text-align: right;
+}
+
+img {
+  width: 80%;
+}
+
+.button-small-on-mobile {
+    font-size: 0.75rem;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+}

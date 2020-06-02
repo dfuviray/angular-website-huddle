@@ -1,0 +1,67 @@
+
+
+header {
+  padding-top: 30px;
+  background-image: url('../../assets/bg-hero-desktop.svg');
+  height: 100vh;
+}
+
+.grid-x div:first-of-type {
+  margin-top: 100px;
+}
+
+.grid-x div:last-of-type{
+  margin-top: 35px;
+}
+
+
+@media screen and (max-width: 39.9375em) {
+  header {
+    background-image: url('../../assets/bg-hero-mobile.svg');
+    text-align: center;
+      height: 100%;
+      padding-bottom: 40px;
+  }
+
+  .button{
+     margin-bottom: 35px;
+  }
+
+}
+
+
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+.title {
+  font-size: 1.5625rem;
+
+}
+.grid-x div:last-of-type{
+  margin-top: 75px;
+}
+}
+
+
+/* HERO IPAD STYLES STYLES */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+
+header {
+  height: 500px
+}
+
+
+ .title {
+  font-size: 1.5625rem;
+
+}
+
+.grid-x div:first-of-type {
+  margin-top: 50px;
+}
+
+.grid-x div:last-of-type{
+  margin-top: 55px;
+}
+}

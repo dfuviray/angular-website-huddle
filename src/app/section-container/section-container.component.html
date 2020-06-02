@@ -1,0 +1,21 @@
+<div class="container">
+  <section [class.section-margin]="isLast">
+    <div
+      class="grid-x"
+      [style.flexDirection]="switch ? 'row-reverse' : 'row'"
+      [class.section-active]="switch"
+    >
+      <div [ngClass]="offSetClass" class="medium-5 medium-offset-1">
+        <div class="left-content">
+          <h3>{{ title }}</h3>
+          <p>
+            {{ about }}
+          </p>
+        </div>
+      </div>
+      <div [ngClass]="offSetClass" class="medium-5 medium-offset-1">
+        <img [src]="imageSrc" alt="grow-together" class="right-content" />
+      </div>
+    </div>
+  </section>
+</div>
